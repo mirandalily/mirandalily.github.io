@@ -12,8 +12,8 @@ I decided to use Codecademy to learn PHP, and I thought I would take any readers
 
 The definition of a loop is "a sequence of instructions that is continually repeated until a certain condition is reached." Simple enough. There are four types of loops in PHP; the for loop, the foreach loop, the while loop, and the do while loop. 
 
-# The for loop.
-
+**# The for loop.
+**
 So at what time is it appropriate to use the for loop? You should use the for loop when you know how many times you want the program to run. The following is an example of the for loop in PHP:
 
 ```
@@ -26,8 +26,8 @@ So at what time is it appropriate to use the for loop? You should use the for lo
 
 In this example let's say you are counting the number of laps in a pool that a swimmer does. We want her to only do 10 laps at which point she should stop. $laps = 1; is the initialization. We are starting at 1 lap, and counting upwards from there. $laps <= 10 is the condition. As long as $laps is less than or equal to 10, we want the program to keep running. $laps++ is the increment that we want to count up by. ++ is adding 1 to the initialized $laps number. 
 
-# The foreach loop.
-
+*# The foreach loop.
+*
 The foreach loop provides an easy way for your program to loop over an array. Actually the foreach loop only works on arrays and objects in PHP. The following is an example of using a foreach loop in PHP: 
 
 ```
@@ -63,7 +63,7 @@ If you don't know how many times a loop should repeat, you should probably be us
 
 First we are establishing our starting point for the while loop with declaring that $count is equal to 1. The second bit of code is the actual while loop. What we are saying with while($count <= 10), is while the variable $count is less than or equal to 10, we want our program to run. But once it gets to 10 we would like it to stop counting. After each time we run through we print out onto the screen "I have $count dogs!". The number that $count is at is the number that will be printed out. At the end we increment $count by one. It will keep incrementing until the statement $count <= 10 is no longer true, then the loop will break!
 
-# The do while loop.
+*# The do while loop.*
 
 The do while loop is very similar to the while loop. What makes them different is when the truth of a statement is checked. In the while loop the truth expression is checked at beginning of the of the iteration, whereas the do while loop checks the truth expression at the end. Here is an example of a do while loop in PHP using the same dogs example as above:
 
