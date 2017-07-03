@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Dabbling in SASS"
-date:   2017-07-03 20:25:09 +0000
+title:  "Dabbling in Sass"
+date:   2017-07-03 16:25:10 -0400
 ---
 
 
